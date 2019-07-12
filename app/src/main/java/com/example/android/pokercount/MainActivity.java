@@ -1,6 +1,7 @@
 package com.example.android.pokercount;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
@@ -18,11 +19,18 @@ public class MainActivity extends AppCompatActivity {
     private long timeLeftMilliseconds = 600000;
     private boolean timerRunning = false;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Button settingsButton = findViewById(R.id.settings_button);
+        settingsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), SettingsActivity.class));
+            }
+        });
 
         timeView = findViewById(R.id.time_view);
         startStopButton = findViewById(R.id.start_stop_button);
