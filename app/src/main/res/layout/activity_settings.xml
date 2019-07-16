@@ -1,395 +1,535 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SettingsActivity"
-    >
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
 
-    <TableLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+        android:layout_height="0dp"
+        android:layout_weight="0.9">
 
-        <TableRow>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-
-            <TextView
-                android:text="Round"
-                android:textSize="24sp"
-                android:textAlignment="center"
-                android:padding="16dp"
-                android:textStyle="bold"
-                android:layout_gravity="center_vertical"
-                />
-
-            <TextView
-                android:text="Small\nBlind"
-                android:textSize="24sp"
-                android:textAlignment="center"
-                android:padding="16dp"
-                android:textStyle="bold"
-                android:layout_gravity="center_vertical"
-                />
-
-            <TextView
-                android:text="Big\nBlind"
-                android:textSize="24sp"
-                android:textAlignment="center"
-                android:padding="16dp"
-                android:textStyle="bold"
-                android:layout_gravity="center_vertical"
-                />
-
-            <TextView
-                android:text="Ante"
-                android:textSize="24sp"
-                android:textAlignment="center"
-                android:padding="16dp"
-                android:textStyle="bold"
-                android:layout_gravity="center_vertical"
-                />
-
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:text="1"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="0"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-        </TableRow>
-        <TableRow>
-            <TextView
-                android:text="1"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="0"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-        </TableRow>
-        <TableRow>
-            <TextView
-                android:text="1"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="0"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-        </TableRow>
-        <TableRow>
-            <TextView
-                android:text="1"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="0"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-        </TableRow>
-        <TableRow>
-            <TextView
-                android:text="1"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="0"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-        </TableRow>
-        <TableRow>
-            <TextView
-                android:text="1"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="0"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-        </TableRow>
-        <TableRow>
-            <TextView
-                android:text="1"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="0"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-        </TableRow>
-        <TableRow>
-            <TextView
-                android:text="1"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="0"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-        </TableRow>
-        <TableRow>
-            <TextView
-                android:text="1"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="0"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-        </TableRow>
-        <TableRow>
-            <TextView
-                android:text="1"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="0"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-        </TableRow>
-        <TableRow>
-            <TextView
-                android:text="1"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="0"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-        </TableRow>
-        <TableRow>
-            <TextView
-                android:text="1"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="0"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-        </TableRow>
-        <TableRow>
-            <TextView
-                android:text="1"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="0"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-        </TableRow>
-        <TableRow>
-            <TextView
-                android:text="1"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="0"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-        </TableRow>
-        <TableRow>
-            <TextView
-                android:text="1"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="10"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-            <EditText
-                android:text="0"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:padding="4dp" />
-        </TableRow>
+            <TableRow>
 
 
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:padding="16dp"
+                    android:text="Round"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:padding="16dp"
+                    android:text="Small\nBlind"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:padding="16dp"
+                    android:text="Big\nBlind"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:padding="16dp"
+                    android:text="Ante"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="4dp"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_1_small"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_1_big"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_1_ante"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="4dp"
+                    android:text="2"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_2_small"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_2_big"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_2_ante"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="4dp"
+                    android:text="3"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_3_small"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_3_big"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_3_ante"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="4dp"
+                    android:text="4"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_4_small"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_4_big"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_4_ante"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="4dp"
+                    android:text="5"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_5_small"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_5_big"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_5_ante"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="4dp"
+                    android:text="6"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_6_small"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_6_big"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_6_ante"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="4dp"
+                    android:text="7"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_7_small"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_7_big"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_7_ante"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="4dp"
+                    android:text="8"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_8_small"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_8_big"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_8_ante"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="4dp"
+                    android:text="9"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_9_small"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_9_big"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_9_ante"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_10_small"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_10_big"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_10_ante"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="4dp"
+                    android:text="11"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_11_small"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_11_big"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_11_ante"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="4dp"
+                    android:text="12"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_12_small"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_12_big"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_12_ante"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="4dp"
+                    android:text="13"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_13_small"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_13_big"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_13_ante"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="4dp"
+                    android:text="14"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_14_small"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_14_big"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_14_ante"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="4dp"
+                    android:text="15"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_15_small"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_15_big"/>
+
+                <EditText
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:id="@+id/round_15_ante"/>
+            </TableRow>
+
+        </TableLayout>
 
 
+    </ScrollView>
 
-    </TableLayout>
-
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:text="Confirmar"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:id="@+id/confirm_button"
+        />
 
 </LinearLayout>
