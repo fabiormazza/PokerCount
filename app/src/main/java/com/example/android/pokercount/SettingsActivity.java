@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,12 +13,13 @@ import java.util.ArrayList;
 
 public class SettingsActivity extends AppCompatActivity {
 
+    public ArrayList<LevelBlinds> blinds = new ArrayList<>();
+    public ArrayList<EditText> levelViews = new ArrayList<>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
-
-        final ArrayList<LevelBlinds> blinds = new ArrayList<>();
 
         blinds.add(new LevelBlinds(10, 20, 0));
         blinds.add(new LevelBlinds(15, 30, 0));
@@ -35,7 +37,6 @@ public class SettingsActivity extends AppCompatActivity {
         blinds.add(new LevelBlinds(800, 1600, 0));
         blinds.add(new LevelBlinds(1000, 2000, 0));
 
-        final ArrayList<EditText> levelViews = new ArrayList<>();
 
         levelViews.add((EditText) findViewById(R.id.round_1_small));
         levelViews.add((EditText)findViewById(R.id.round_1_big));
@@ -102,22 +103,26 @@ public class SettingsActivity extends AppCompatActivity {
             levelViews.get(3*i).setText(String.valueOf(blinds.get(i).getSmallBlind()));
             levelViews.get(3*i+1).setText(String.valueOf(blinds.get(i).getBigBlind()));
             levelViews.get(3*i+2).setText(String.valueOf(blinds.get(i).getAnte()));
-
-
         }
 
+        Button confirmButton = findViewById(R.id.confirm_button);
 
-//        final EditText text1 = findViewById(R.id.round_1_small);
-//
-//
-//        text1.addTextChangedListener(new TextWatcher() {
-//            @Override public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) { }
-//            @Override public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) { }
-//            @Override
-//            public void afterTextChanged(Editable editable) {
-//                String text = text1.getText().toString();
-//            }
-//        });
+        confirmButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                reviewBlinds();
+            }
+        });
+    }
+
+    public void reviewBlinds (){
+
+        for (int i=0; i<15; i++){
+
+            blinds.get(i).setSmallBlind(Integer.parseInt(levelViews.get(3*i).getText().toString()));
+            blinds.get(i).setBigBlind(Integer.parseInt(levelViews.get(3*i+1).getText().toString()));
+            blinds.get(i).setAnte(Integer.parseInt(levelViews.get(3*i+2).getText().toString()));
+        }
     }
 }
 
