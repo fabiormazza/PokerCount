@@ -1,5 +1,6 @@
 package com.example.android.pokercount;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -123,6 +124,10 @@ public class SettingsActivity extends AppCompatActivity {
             blinds.get(i).setBigBlind(Integer.parseInt(levelViews.get(3*i+1).getText().toString()));
             blinds.get(i).setAnte(Integer.parseInt(levelViews.get(3*i+2).getText().toString()));
         }
+
+        Intent confirm = new Intent(getApplicationContext(), MainActivity.class);
+        confirm.putParcelableArrayListExtra("blinds", blinds);
+        startActivity(confirm);
     }
 }
 

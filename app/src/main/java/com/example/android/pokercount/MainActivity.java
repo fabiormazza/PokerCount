@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.ArrayList;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,11 +20,13 @@ public class MainActivity extends AppCompatActivity {
     private CountDownTimer countDownTimer;
     private long timeLeftMilliseconds = 600000;
     private boolean timerRunning = false;
+    private ArrayList<LevelBlinds> blinds;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         Button settingsButton = findViewById(R.id.settings_button);
         settingsButton.setOnClickListener(new View.OnClickListener() {
@@ -44,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        blinds = getIntent().getParcelableArrayListExtra("blinds");
 
     }
 
