@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,11 +23,17 @@ public class MainActivity extends AppCompatActivity {
     private boolean timerRunning = false;
     private ArrayList<LevelBlinds> blinds;
 
+    private EditText duracaoRodadaView;
+    private EditText numeroRodadasIntervaloView;
+    private int duracaoRodada;
+    private int numeroRodadasIntervalo;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        numeroRodadasIntervaloView = findViewById(R.id.numeroRodadasIntervalo);
 
         Button settingsButton = findViewById(R.id.settings_button);
         settingsButton.setOnClickListener(new View.OnClickListener() {
@@ -55,11 +62,11 @@ public class MainActivity extends AppCompatActivity {
     public void startStop (){
         if (timerRunning){
             stopTimer();
-            startStopButton.setText("START");
+            startStopButton.setText("Continuar");
         }
         else {
             startTimer();
-            startStopButton.setText("PAUSE");
+            startStopButton.setText("Pausar");
         }
 
     }

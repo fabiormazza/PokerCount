@@ -21,7 +21,7 @@
                 <TextView
                     android:layout_gravity="center_vertical"
                     android:padding="16dp"
-                    android:text="Round"
+                    android:text="Rodada"
                     android:textAlignment="center"
                     android:textSize="24sp"
                     android:textStyle="bold" />
@@ -66,21 +66,24 @@
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_1_small"/>
+                    android:id="@+id/round_1_small"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_1_big"/>
+                    android:id="@+id/round_1_big"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="0"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_1_ante"/>
+                    android:id="@+id/round_1_ante"
+                    android:inputType="number"/>
             </TableRow>
 
             <TableRow>
@@ -90,28 +93,32 @@
                     android:text="2"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    />
 
                 <EditText
                     android:padding="4dp"
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_2_small"/>
+                    android:id="@+id/round_2_small"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_2_big"/>
+                    android:id="@+id/round_2_big"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="0"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_2_ante"/>
+                    android:id="@+id/round_2_ante"
+                    android:inputType="number"/>
             </TableRow>
 
             <TableRow>
@@ -128,21 +135,24 @@
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_3_small"/>
+                    android:id="@+id/round_3_small"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_3_big"/>
+                    android:id="@+id/round_3_big"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="0"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_3_ante"/>
+                    android:id="@+id/round_3_ante"
+                    android:inputType="number"/>
             </TableRow>
 
             <TableRow>
@@ -159,21 +169,24 @@
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_4_small"/>
+                    android:id="@+id/round_4_small"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_4_big"/>
+                    android:id="@+id/round_4_big"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="0"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_4_ante"/>
+                    android:id="@+id/round_4_ante"
+                    android:inputType="number"/>
             </TableRow>
 
             <TableRow>
@@ -190,21 +203,24 @@
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_5_small"/>
+                    android:id="@+id/round_5_small"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_5_big"/>
+                    android:id="@+id/round_5_big"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="0"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_5_ante"/>
+                    android:id="@+id/round_5_ante"
+                    android:inputType="number"/>
             </TableRow>
 
             <TableRow>
@@ -221,21 +237,24 @@
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_6_small"/>
+                    android:id="@+id/round_6_small"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_6_big"/>
+                    android:id="@+id/round_6_big"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="0"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_6_ante"/>
+                    android:id="@+id/round_6_ante"
+                    android:inputType="number"/>
             </TableRow>
 
             <TableRow>
@@ -252,21 +271,24 @@
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_7_small"/>
+                    android:id="@+id/round_7_small"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_7_big"/>
+                    android:id="@+id/round_7_big"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="0"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_7_ante"/>
+                    android:id="@+id/round_7_ante"
+                    android:inputType="number"/>
             </TableRow>
 
             <TableRow>
@@ -283,21 +305,24 @@
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_8_small"/>
+                    android:id="@+id/round_8_small"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_8_big"/>
+                    android:id="@+id/round_8_big"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="0"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_8_ante"/>
+                    android:id="@+id/round_8_ante"
+                    android:inputType="number"/>
             </TableRow>
 
             <TableRow>
@@ -314,21 +339,24 @@
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_9_small"/>
+                    android:id="@+id/round_9_small"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_9_big"/>
+                    android:id="@+id/round_9_big"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="0"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_9_ante"/>
+                    android:id="@+id/round_9_ante"
+                    android:inputType="number"/>
             </TableRow>
 
             <TableRow>
@@ -345,21 +373,24 @@
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_10_small"/>
+                    android:id="@+id/round_10_small"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_10_big"/>
+                    android:id="@+id/round_10_big"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="0"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_10_ante"/>
+                    android:id="@+id/round_10_ante"
+                    android:inputType="number"/>
             </TableRow>
 
             <TableRow>
@@ -376,21 +407,24 @@
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_11_small"/>
+                    android:id="@+id/round_11_small"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_11_big"/>
+                    android:id="@+id/round_11_big"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="0"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_11_ante"/>
+                    android:id="@+id/round_11_ante"
+                    android:inputType="number"/>
             </TableRow>
 
             <TableRow>
@@ -407,21 +441,24 @@
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_12_small"/>
+                    android:id="@+id/round_12_small"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_12_big"/>
+                    android:id="@+id/round_12_big"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="0"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_12_ante"/>
+                    android:id="@+id/round_12_ante"
+                    android:inputType="number"/>
             </TableRow>
 
             <TableRow>
@@ -438,21 +475,24 @@
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_13_small"/>
+                    android:id="@+id/round_13_small"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_13_big"/>
+                    android:id="@+id/round_13_big"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="0"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_13_ante"/>
+                    android:id="@+id/round_13_ante"
+                    android:inputType="number"/>
             </TableRow>
 
             <TableRow>
@@ -469,21 +509,24 @@
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_14_small"/>
+                    android:id="@+id/round_14_small"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_14_big"/>
+                    android:id="@+id/round_14_big"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="0"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_14_ante"/>
+                    android:id="@+id/round_14_ante"
+                    android:inputType="number"/>
             </TableRow>
 
             <TableRow>
@@ -500,21 +543,24 @@
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_15_small"/>
+                    android:id="@+id/round_15_small"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="10"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_15_big"/>
+                    android:id="@+id/round_15_big"
+                    android:inputType="number"/>
 
                 <EditText
                     android:padding="4dp"
                     android:text="0"
                     android:textAlignment="center"
                     android:textSize="20sp"
-                    android:id="@+id/round_15_ante"/>
+                    android:id="@+id/round_15_ante"
+                    android:inputType="number"/>
             </TableRow>
 
         </TableLayout>
